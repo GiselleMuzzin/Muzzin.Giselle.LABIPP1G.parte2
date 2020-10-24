@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<FileVersion major="1" minor="0" />
+	<ActiveTarget name="Debug" />
+	<File name="auto.c" open="1" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="19219" topLine="311" />
+		</Cursor>
+		<Folding>
+			<Collapse line="14" />
+			<Collapse line="36" />
+			<Collapse line="62" />
+			<Collapse line="90" />
+			<Collapse line="118" />
+			<Collapse line="167" />
+			<Collapse line="192" />
+			<Collapse line="218" />
+			<Collapse line="243" />
+			<Collapse line="271" />
+			<Collapse line="301" />
+			<Collapse line="339" />
+			<Collapse line="358" />
+			<Collapse line="389" />
+			<Collapse line="418" />
+			<Collapse line="434" />
+			<Collapse line="453" />
+			<Collapse line="482" />
+			<Collapse line="516" />
+			<Collapse line="537" />
+			<Collapse line="577" />
+			<Collapse line="617" />
+			<Collapse line="656" />
+			<Collapse line="696" />
+			<Collapse line="750" />
+			<Collapse line="777" />
+			<Collapse line="816" />
+		</Folding>
+	</File>
+	<File name="marca.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="580" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="trabajo.h" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="673" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="servicio.c" open="1" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2158" topLine="26" />
+		</Cursor>
+		<Folding>
+			<Collapse line="14" />
+			<Collapse line="43" />
+		</Folding>
+	</File>
+	<File name="utn.c" open="1" top="0" tabpos="14" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="9098" topLine="173" />
+		</Cursor>
+		<Folding>
+			<Collapse line="46" />
+			<Collapse line="67" />
+			<Collapse line="101" />
+			<Collapse line="130" />
+			<Collapse line="157" />
+			<Collapse line="182" />
+			<Collapse line="204" />
+			<Collapse line="245" />
+			<Collapse line="276" />
+			<Collapse line="306" />
+			<Collapse line="356" />
+			<Collapse line="412" />
+			<Collapse line="436" />
+			<Collapse line="465" />
+			<Collapse line="491" />
+			<Collapse line="521" />
+			<Collapse line="546" />
+			<Collapse line="570" />
+			<Collapse line="599" />
+		</Folding>
+	</File>
+	<File name="fecha.c" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1476" topLine="1" />
+		</Cursor>
+		<Folding>
+			<Collapse line="15" />
+			<Collapse line="64" />
+			<Collapse line="80" />
+		</Folding>
+	</File>
+	<File name="servicio.h" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="127" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="color.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="212" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="trabajo.c" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5560" topLine="133" />
+		</Cursor>
+		<Folding>
+			<Collapse line="14" />
+			<Collapse line="38" />
+			<Collapse line="59" />
+			<Collapse line="85" />
+		</Folding>
+	</File>
+	<File name="menu.c" open="1" top="0" tabpos="19" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="13084" topLine="358" />
+		</Cursor>
+	</File>
+	<File name="menu.h" open="1" top="0" tabpos="18" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2691" topLine="6" />
+		</Cursor>
+	</File>
+	<File name="utn.h" open="1" top="0" tabpos="15" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="185" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="color.c" open="1" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2942" topLine="39" />
+		</Cursor>
+		<Folding>
+			<Collapse line="15" />
+			<Collapse line="42" />
+			<Collapse line="61" />
+			<Collapse line="84" />
+			<Collapse line="111" />
+			<Collapse line="130" />
+		</Folding>
+	</File>
+	<File name="main.c" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="366" topLine="2" />
+		</Cursor>
+	</File>
+	<File name="marca.c" open="1" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3561" topLine="56" />
+		</Cursor>
+		<Folding>
+			<Collapse line="14" />
+			<Collapse line="41" />
+			<Collapse line="61" />
+			<Collapse line="84" />
+			<Collapse line="111" />
+		</Folding>
+	</File>
+	<File name="cliente.c" open="1" top="0" tabpos="17" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3635" topLine="120" />
+		</Cursor>
+	</File>
+	<File name="fecha.h" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="248" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="cliente.h" open="1" top="0" tabpos="16" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="751" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="auto.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="553" topLine="13" />
+		</Cursor>
+	</File>
+</CodeBlocks_layout_file>

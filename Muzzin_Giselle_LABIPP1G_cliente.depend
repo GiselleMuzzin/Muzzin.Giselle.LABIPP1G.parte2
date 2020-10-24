@@ -1,0 +1,492 @@
+# depslib dependency file v1.0
+1603496503 source:/home/gise/Documents/utn codeblocks/Muzzin_Giselle_LABIPP1G/color.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdio_ext.h>
+	"color.h"
+
+1603496517 /home/gise/Documents/utn codeblocks/Muzzin_Giselle_LABIPP1G/color.h
+	"utn.h"
+
+1603423984 source:/home/gise/Documents/utn codeblocks/Muzzin_Giselle_LABIPP1G/fecha.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"fecha.h"
+
+1603424221 /home/gise/Documents/utn codeblocks/Muzzin_Giselle_LABIPP1G/fecha.h
+
+1603496469 source:/home/gise/Documents/utn codeblocks/Muzzin_Giselle_LABIPP1G/marca.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"marca.h"
+
+1603496488 /home/gise/Documents/utn codeblocks/Muzzin_Giselle_LABIPP1G/marca.h
+	"utn.h"
+
+1603497284 source:/home/gise/Documents/utn codeblocks/Muzzin_Giselle_LABIPP1G/auto.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdio_ext.h>
+	"auto.h"
+
+1603455432 /home/gise/Documents/utn codeblocks/Muzzin_Giselle_LABIPP1G/auto.h
+	"utn.h"
+	"color.h"
+	"marca.h"
+	"cliente.h"
+
+1603493433 source:/home/gise/Documents/utn codeblocks/Muzzin_Giselle_LABIPP1G/main.c
+	<stdio.h>
+	<stdlib.h>
+	"menu.h"
+	"auto.h"
+	"color.h"
+	"fecha.h"
+	"marca.h"
+	"servicio.h"
+	"trabajo.h"
+	"cliente.h"
+
+1603496532 /home/gise/Documents/utn codeblocks/Muzzin_Giselle_LABIPP1G/servicio.h
+	"utn.h"
+
+1603496540 source:/home/gise/Documents/utn codeblocks/Muzzin_Giselle_LABIPP1G/servicio.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"servicio.h"
+
+1603496091 source:/home/gise/Documents/utn codeblocks/Muzzin_Giselle_LABIPP1G/trabajo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"trabajo.h"
+
+1603424823 /home/gise/Documents/utn codeblocks/Muzzin_Giselle_LABIPP1G/trabajo.h
+	"auto.h"
+	"fecha.h"
+	"servicio.h"
+
+1602894233 source:/home/gise/Documents/utn codeblocks/Muzzin_Giselle_LABIPP1G/utn.c
+	<stdio.h>
+	<stdio_ext.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
+1602894180 /home/gise/Documents/utn codeblocks/Muzzin_Giselle_LABIPP1G/utn.h
+
+1603420461 source:/home/gise/Documents/utn codeblocks/Muzzin_Giselle_LABIPP1G (copy)/auto.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdio_ext.h>
+	"auto.h"
+
+1603420501 /home/gise/Documents/utn codeblocks/Muzzin_Giselle_LABIPP1G (copy)/auto.h
+	"utn.h"
+	"color.h"
+	"marca.h"
+
+1602894180 /home/gise/Documents/utn codeblocks/Muzzin_Giselle_LABIPP1G (copy)/utn.h
+
+1603418935 /home/gise/Documents/utn codeblocks/Muzzin_Giselle_LABIPP1G (copy)/color.h
+	"utn.h"
+
+1603418989 /home/gise/Documents/utn codeblocks/Muzzin_Giselle_LABIPP1G (copy)/marca.h
+	"utn.h"
+
+1603418944 source:/home/gise/Documents/utn codeblocks/Muzzin_Giselle_LABIPP1G (copy)/color.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdio_ext.h>
+	"color.h"
+
+1603423984 source:/home/gise/Documents/utn codeblocks/Muzzin_Giselle_LABIPP1G (copy)/fecha.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"fecha.h"
+
+1603424221 /home/gise/Documents/utn codeblocks/Muzzin_Giselle_LABIPP1G (copy)/fecha.h
+
+1603418998 source:/home/gise/Documents/utn codeblocks/Muzzin_Giselle_LABIPP1G (copy)/marca.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"marca.h"
+
+1603418870 source:/home/gise/Documents/utn codeblocks/Muzzin_Giselle_LABIPP1G (copy)/servicio.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"servicio.h"
+
+1603418885 /home/gise/Documents/utn codeblocks/Muzzin_Giselle_LABIPP1G (copy)/servicio.h
+	"utn.h"
+
+1603424770 source:/home/gise/Documents/utn codeblocks/Muzzin_Giselle_LABIPP1G (copy)/trabajo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"trabajo.h"
+
+1603424823 /home/gise/Documents/utn codeblocks/Muzzin_Giselle_LABIPP1G (copy)/trabajo.h
+	"auto.h"
+	"fecha.h"
+	"servicio.h"
+
+1602894233 source:/home/gise/Documents/utn codeblocks/Muzzin_Giselle_LABIPP1G (copy)/utn.c
+	<stdio.h>
+	<stdio_ext.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
+1603424221 source:/home/gise/Documents/utn codeblocks/Muzzin_Giselle_LABIPP1G (copy)/main.c
+	<stdio.h>
+	<stdlib.h>
+	"auto.h"
+	"color.h"
+	"fecha.h"
+	"marca.h"
+	"servicio.h"
+	"trabajo.h"
+
+1603455231 source:/home/fede/Downloads/Muzzin_Giselle_LABIPP1G_cliente/auto.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdio_ext.h>
+	"auto.h"
+
+1603455432 /home/fede/Downloads/Muzzin_Giselle_LABIPP1G_cliente/auto.h
+	"utn.h"
+	"color.h"
+	"marca.h"
+	"cliente.h"
+
+1602894180 /home/fede/Downloads/Muzzin_Giselle_LABIPP1G_cliente/utn.h
+
+1603418935 /home/fede/Downloads/Muzzin_Giselle_LABIPP1G_cliente/color.h
+	"utn.h"
+
+1603418989 /home/fede/Downloads/Muzzin_Giselle_LABIPP1G_cliente/marca.h
+	"utn.h"
+
+1603418944 source:/home/fede/Downloads/Muzzin_Giselle_LABIPP1G_cliente/color.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdio_ext.h>
+	"color.h"
+
+1603423984 source:/home/fede/Downloads/Muzzin_Giselle_LABIPP1G_cliente/fecha.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"fecha.h"
+
+1603424221 /home/fede/Downloads/Muzzin_Giselle_LABIPP1G_cliente/fecha.h
+
+1603490277 source:/home/fede/Downloads/Muzzin_Giselle_LABIPP1G_cliente/main.c
+	<stdio.h>
+	<stdlib.h>
+	"menu.h"
+
+1603418885 /home/fede/Downloads/Muzzin_Giselle_LABIPP1G_cliente/servicio.h
+	"utn.h"
+
+1603424823 /home/fede/Downloads/Muzzin_Giselle_LABIPP1G_cliente/trabajo.h
+	"auto.h"
+	"fecha.h"
+	"servicio.h"
+
+1603418998 source:/home/fede/Downloads/Muzzin_Giselle_LABIPP1G_cliente/marca.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"marca.h"
+
+1603418870 source:/home/fede/Downloads/Muzzin_Giselle_LABIPP1G_cliente/servicio.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"servicio.h"
+
+1603424770 source:/home/fede/Downloads/Muzzin_Giselle_LABIPP1G_cliente/trabajo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"trabajo.h"
+
+1602894233 source:/home/fede/Downloads/Muzzin_Giselle_LABIPP1G_cliente/utn.c
+	<stdio.h>
+	<stdio_ext.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
+1603454713 /home/fede/Downloads/Muzzin_Giselle_LABIPP1G_cliente/cliente.h
+
+1603455341 source:/home/fede/Downloads/Muzzin_Giselle_LABIPP1G_cliente/cliente.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdio_ext.h>
+	"cliente.h"
+	"utn.h"
+
+1603490309 /home/fede/Downloads/Muzzin_Giselle_LABIPP1G_cliente/menu.h
+	<stdio.h>
+	<stdlib.h>
+	"auto.h"
+	"color.h"
+	"fecha.h"
+	"marca.h"
+	"servicio.h"
+	"trabajo.h"
+	"cliente.h"
+
+1603490294 source:/home/fede/Downloads/Muzzin_Giselle_LABIPP1G_cliente/menu.c
+	"menu.h"
+
+1603492492 source:/home/gise/Documents/utn codeblocks/Muzzin_Giselle_LABIPP1G_cliente_con_menu/Muzzin_Giselle_LABIPP1G_cliente/auto.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdio_ext.h>
+	"auto.h"
+
+1603455432 /home/gise/Documents/utn codeblocks/Muzzin_Giselle_LABIPP1G_cliente_con_menu/Muzzin_Giselle_LABIPP1G_cliente/auto.h
+	"utn.h"
+	"color.h"
+	"marca.h"
+	"cliente.h"
+
+1602894180 /home/gise/Documents/utn codeblocks/Muzzin_Giselle_LABIPP1G_cliente_con_menu/Muzzin_Giselle_LABIPP1G_cliente/utn.h
+
+1603418935 /home/gise/Documents/utn codeblocks/Muzzin_Giselle_LABIPP1G_cliente_con_menu/Muzzin_Giselle_LABIPP1G_cliente/color.h
+	"utn.h"
+
+1603418989 /home/gise/Documents/utn codeblocks/Muzzin_Giselle_LABIPP1G_cliente_con_menu/Muzzin_Giselle_LABIPP1G_cliente/marca.h
+	"utn.h"
+
+1603454713 /home/gise/Documents/utn codeblocks/Muzzin_Giselle_LABIPP1G_cliente_con_menu/Muzzin_Giselle_LABIPP1G_cliente/cliente.h
+
+1603455341 source:/home/gise/Documents/utn codeblocks/Muzzin_Giselle_LABIPP1G_cliente_con_menu/Muzzin_Giselle_LABIPP1G_cliente/cliente.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdio_ext.h>
+	"cliente.h"
+	"utn.h"
+
+1603418944 source:/home/gise/Documents/utn codeblocks/Muzzin_Giselle_LABIPP1G_cliente_con_menu/Muzzin_Giselle_LABIPP1G_cliente/color.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdio_ext.h>
+	"color.h"
+
+1603423984 source:/home/gise/Documents/utn codeblocks/Muzzin_Giselle_LABIPP1G_cliente_con_menu/Muzzin_Giselle_LABIPP1G_cliente/fecha.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"fecha.h"
+
+1603424221 /home/gise/Documents/utn codeblocks/Muzzin_Giselle_LABIPP1G_cliente_con_menu/Muzzin_Giselle_LABIPP1G_cliente/fecha.h
+
+1603493433 source:/home/gise/Documents/utn codeblocks/Muzzin_Giselle_LABIPP1G_cliente_con_menu/Muzzin_Giselle_LABIPP1G_cliente/main.c
+	<stdio.h>
+	<stdlib.h>
+	"menu.h"
+	"auto.h"
+	"color.h"
+	"fecha.h"
+	"marca.h"
+	"servicio.h"
+	"trabajo.h"
+	"cliente.h"
+
+1603493264 /home/gise/Documents/utn codeblocks/Muzzin_Giselle_LABIPP1G_cliente_con_menu/Muzzin_Giselle_LABIPP1G_cliente/menu.h
+	<stdio.h>
+	<stdlib.h>
+	"auto.h"
+	"color.h"
+	"fecha.h"
+	"marca.h"
+	"servicio.h"
+	"trabajo.h"
+	"cliente.h"
+
+1603418885 /home/gise/Documents/utn codeblocks/Muzzin_Giselle_LABIPP1G_cliente_con_menu/Muzzin_Giselle_LABIPP1G_cliente/servicio.h
+	"utn.h"
+
+1603424823 /home/gise/Documents/utn codeblocks/Muzzin_Giselle_LABIPP1G_cliente_con_menu/Muzzin_Giselle_LABIPP1G_cliente/trabajo.h
+	"auto.h"
+	"fecha.h"
+	"servicio.h"
+
+1603418998 source:/home/gise/Documents/utn codeblocks/Muzzin_Giselle_LABIPP1G_cliente_con_menu/Muzzin_Giselle_LABIPP1G_cliente/marca.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"marca.h"
+
+1603418870 source:/home/gise/Documents/utn codeblocks/Muzzin_Giselle_LABIPP1G_cliente_con_menu/Muzzin_Giselle_LABIPP1G_cliente/servicio.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"servicio.h"
+
+1603492834 source:/home/gise/Documents/utn codeblocks/Muzzin_Giselle_LABIPP1G_cliente_con_menu/Muzzin_Giselle_LABIPP1G_cliente/trabajo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"trabajo.h"
+
+1602894233 source:/home/gise/Documents/utn codeblocks/Muzzin_Giselle_LABIPP1G_cliente_con_menu/Muzzin_Giselle_LABIPP1G_cliente/utn.c
+	<stdio.h>
+	<stdio_ext.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
+1603493750 source:/home/gise/Documents/utn codeblocks/Muzzin_Giselle_LABIPP1G_cliente_con_menu/Muzzin_Giselle_LABIPP1G_cliente/menu.c
+	"menu.h"
+
+1603454713 /home/gise/Documents/utn codeblocks/Muzzin_Giselle_LABIPP1G/cliente.h
+
+1603455341 source:/home/gise/Documents/utn codeblocks/Muzzin_Giselle_LABIPP1G/cliente.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdio_ext.h>
+	"cliente.h"
+	"utn.h"
+
+1603497785 /home/gise/Documents/utn codeblocks/Muzzin_Giselle_LABIPP1G/menu.h
+	<stdio.h>
+	<stdlib.h>
+	"auto.h"
+	"color.h"
+	"fecha.h"
+	"marca.h"
+	"servicio.h"
+	"trabajo.h"
+	"cliente.h"
+
+1603497785 source:/home/gise/Documents/utn codeblocks/Muzzin_Giselle_LABIPP1G/menu.c
+	"menu.h"
+
+1603497284 source:/home/gise/Documents/utn codeblocks/Muzzin.Giselle.LABIPP1G.parte2/auto.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdio_ext.h>
+	"auto.h"
+
+1603455432 /home/gise/Documents/utn codeblocks/Muzzin.Giselle.LABIPP1G.parte2/auto.h
+	"utn.h"
+	"color.h"
+	"marca.h"
+	"cliente.h"
+
+1602894180 /home/gise/Documents/utn codeblocks/Muzzin.Giselle.LABIPP1G.parte2/utn.h
+
+1603496517 /home/gise/Documents/utn codeblocks/Muzzin.Giselle.LABIPP1G.parte2/color.h
+	"utn.h"
+
+1603496488 /home/gise/Documents/utn codeblocks/Muzzin.Giselle.LABIPP1G.parte2/marca.h
+	"utn.h"
+
+1603454713 /home/gise/Documents/utn codeblocks/Muzzin.Giselle.LABIPP1G.parte2/cliente.h
+
+1603455341 source:/home/gise/Documents/utn codeblocks/Muzzin.Giselle.LABIPP1G.parte2/cliente.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdio_ext.h>
+	"cliente.h"
+	"utn.h"
+
+1603496503 source:/home/gise/Documents/utn codeblocks/Muzzin.Giselle.LABIPP1G.parte2/color.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdio_ext.h>
+	"color.h"
+
+1603423984 source:/home/gise/Documents/utn codeblocks/Muzzin.Giselle.LABIPP1G.parte2/fecha.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"fecha.h"
+
+1603424221 /home/gise/Documents/utn codeblocks/Muzzin.Giselle.LABIPP1G.parte2/fecha.h
+
+1603497888 source:/home/gise/Documents/utn codeblocks/Muzzin.Giselle.LABIPP1G.parte2/main.c
+	<stdio.h>
+	<stdlib.h>
+	"menu.h"
+	"auto.h"
+	"color.h"
+	"fecha.h"
+	"marca.h"
+	"servicio.h"
+	"trabajo.h"
+	"cliente.h"
+
+1603497785 /home/gise/Documents/utn codeblocks/Muzzin.Giselle.LABIPP1G.parte2/menu.h
+	<stdio.h>
+	<stdlib.h>
+	"auto.h"
+	"color.h"
+	"fecha.h"
+	"marca.h"
+	"servicio.h"
+	"trabajo.h"
+	"cliente.h"
+
+1603496532 /home/gise/Documents/utn codeblocks/Muzzin.Giselle.LABIPP1G.parte2/servicio.h
+	"utn.h"
+
+1603424823 /home/gise/Documents/utn codeblocks/Muzzin.Giselle.LABIPP1G.parte2/trabajo.h
+	"auto.h"
+	"fecha.h"
+	"servicio.h"
+
+1603496469 source:/home/gise/Documents/utn codeblocks/Muzzin.Giselle.LABIPP1G.parte2/marca.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"marca.h"
+
+1603497785 source:/home/gise/Documents/utn codeblocks/Muzzin.Giselle.LABIPP1G.parte2/menu.c
+	"menu.h"
+
+1603496540 source:/home/gise/Documents/utn codeblocks/Muzzin.Giselle.LABIPP1G.parte2/servicio.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"servicio.h"
+
+1603496091 source:/home/gise/Documents/utn codeblocks/Muzzin.Giselle.LABIPP1G.parte2/trabajo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"trabajo.h"
+
+1602894233 source:/home/gise/Documents/utn codeblocks/Muzzin.Giselle.LABIPP1G.parte2/utn.c
+	<stdio.h>
+	<stdio_ext.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
