@@ -503,13 +503,15 @@ int buscarIdPorPatente (Auto* autos, int len, char* patente)
 
 
 
-// DOXYGENNNNN
 /**
  * \brief Pide al usuario que ingrese el modelo del auto
- * \param autos Array de autos
- * \param len Cantidad de elementos del array
- * \param patente patente del auto a elegir por el usuario
- * \param lenPatente cantidad de caracteres maximo de una patente
+ * \param unAuto Un auto en particular
+ * \param colores Array de colores
+ * \param lenColores Cantidad de elementos del array
+ * \param marcas Array de marcas
+ * \param lenMarcas Cantidad de elementos del array
+ * \param clientes Array de clientes
+ * \param lenClientes Cantidad de elementos del array
  * \return (void)
  *
  */
@@ -527,11 +529,17 @@ void mostrarAuto(Auto unAuto, Color* colores, int lenColores, Marca* marcas, int
 
 
 /**
- * \brief Busca el id que corresponde a la patente seleccionada por el usuario
+ * \brief Permite listar los autos segun un color
  * \param autos Array de autos
  * \param len Cantidad de elementos del array
- * \param patente Es la patente del auto
- * \return Retorna -1 (ERROR) y el id (id)
+ * \param idColorDeseado Es el id del color elegido por el usuario
+ * \param colores Array de colores
+ * \param lenColores Cantidad de elementos del array
+ * \param marcas Array de marcas
+ * \param lenMarcas Cantidad de elementos del array
+ * \param clientes Array de clientes
+ * \param lenClientes Cantidad de elementos del array
+ * \return Retorna -1 (ERROR) y 0 (ok)
  *
  */
 int listarAutosPorColor(Auto* autos, int len, int idColorDeseado, Color* colores,int lenColores, Marca* marcas, int lenMarcas, Cliente* clientes, int lenClientes)
@@ -567,11 +575,17 @@ int listarAutosPorColor(Auto* autos, int len, int idColorDeseado, Color* colores
 
 
 /**
- * \brief Busca el id que corresponde a la patente seleccionada por el usuario
+ * \brief Permite listar los autos segun una marca
  * \param autos Array de autos
  * \param len Cantidad de elementos del array
- * \param patente Es la patente del auto
- * \return Retorna -1 (ERROR) y el id (id)
+ * \param idMarcaDeseada Es el id de la marca elegida por el usuario
+ * \param colores Array de colores
+ * \param lenColores Cantidad de elementos del array
+ * \param marcas Array de marcas
+ * \param lenMarcas Cantidad de elementos del array
+ * \param clientes Array de clientes
+ * \param lenClientes Cantidad de elementos del array
+ * \return Retorna -1 (ERROR) y 0 (ok)
  *
  */
 int listarAutosPorMarca(Auto* autos, int len, int idMarcaDeseada, Color* colores,int lenColores, Marca* marcas, int lenMarcas, Cliente* clientes, int lenClientes)
@@ -607,11 +621,11 @@ int listarAutosPorMarca(Auto* autos, int len, int idMarcaDeseada, Color* colores
 
 
 /**
- * \brief Busca el id que corresponde a la patente seleccionada por el usuario
+ * \brief Permite obtener el modelo mas viejo
  * \param autos Array de autos
  * \param len Cantidad de elementos del array
- * \param patente Es la patente del auto
- * \return Retorna -1 (ERROR) y el id (id)
+ * \param modelo Es el modelo del auto
+ * \return Retorna -1 (ERROR) y y 0 (ok)
  *
  */
 int obtenerModeloMasViejo(Auto* autos, int len, int* modelo)
@@ -646,11 +660,17 @@ int obtenerModeloMasViejo(Auto* autos, int len, int* modelo)
 }
 
 /**
- * \brief Busca el id que corresponde a la patente seleccionada por el usuario
+ * \brief Muestra los autos según el modelo
  * \param autos Array de autos
  * \param len Cantidad de elementos del array
- * \param patente Es la patente del auto
- * \return Retorna -1 (ERROR) y el id (id)
+ * \param modeloDeseado Modelo deseado del auto
+ * \param colores Array de colores
+ * \param lenColores Cantidad de elementos del array
+ * \param marcas Array de marcas
+ * \param lenMarcas Cantidad de elementos del array
+ * \param clientes Array de clientes
+ * \param lenClientes Cantidad de elementos del array
+ * \return Retorna -1 (ERROR) y 0 (ok)
  *
  */
 int listarAutosPorModelo(Auto* autos, int len, int modeloDeseado, Color* colores,int lenColores, Marca* marcas, int lenMarcas, Cliente* clientes, int lenClientes)
@@ -685,11 +705,15 @@ int listarAutosPorModelo(Auto* autos, int len, int modeloDeseado, Color* colores
 }
 
 /**
- * \brief Pide al usuario que ingrese el modelo del auto
+ * \brief Muestra el/los autos de modelo mas viejo
  * \param autos Array de autos
  * \param len Cantidad de elementos del array
- * \param patente patente del auto a elegir por el usuario
- * \param lenPatente cantidad de caracteres maximo de una patente
+ * \param colores Array de colores
+ * \param lenColores Cantidad de elementos del array
+ * \param marcas Array de marcas
+ * \param lenMarcas Cantidad de elementos del array
+ * \param clientes Array de clientes
+ * \param lenClientes Cantidad de elementos del array
  * \return (void)
  *
  */
@@ -710,7 +734,7 @@ void listarAutosMasViejos(Auto* autos, int len, Color* colores,int lenColores, M
  * \param lenColores Cantidad de elementos del array
  * \param marcas Array de marcas
  * \param lenMarcas Cantidad de elementos del array
- * \return Retorna -1 (ERROR) y el id (id)
+ * \return Retorna el valor del contador
  *
  */
 int contarColorYMarca(Auto* autos, int len, int idColorDeseado, int idMarcaDeseada, Color* colores,int lenColores, Marca* marcas, int lenMarcas)
@@ -744,7 +768,7 @@ int contarColorYMarca(Auto* autos, int len, int idColorDeseado, int idMarcaDesea
  * \param autos Array de autos
  * \param len Cantidad de elementos del array
  * \param idMarca Es el id de la marca
- * \return Retorna -1 (ERROR) y el id (id)
+ * \return Retorna el valor del contador
  *
  */
 int contarAutosPorMarca(Auto* autos, int len, int idMarca)

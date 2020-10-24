@@ -1,5 +1,21 @@
 #include "menu.h"
 
+/**
+ * \brief Permite dar de alta un auto
+ * \param autos Array de autos
+ * \param lenAutos Cantidad de elementos del array
+ * \param colores Array de colores
+ * \param lenColores Cantidad de elementos del array
+ * \param marcas Array de marcas
+ * \param lenMarcas Cantidad de elementos del array
+ * \param clientes Array de clientes
+ * \param lenClientes Cantidad de elementos del array
+ * \param clienteDadoDeAlta Es el cliente que se dio de alta
+ * \param idAutos Es el id del auto
+ * \param contadorAutosActivos Es el contador de autos activos
+ * \return Retorna void
+ *
+ */
 void altaAuto(Auto* autos, int lenAutos, Color* colores, int lenColores, Marca* marcas, int lenMarcas, Cliente* clientes, int lenClientes,  int clienteDadoDeAlta, int* idAutos, int* contadorAutosActivos)
 {
     char patente[PATENTE_LEN];
@@ -38,7 +54,12 @@ void altaAuto(Auto* autos, int lenAutos, Color* colores, int lenColores, Marca* 
 
 }
 
-
+/**
+ * \brief Muestra las opciones del menu para que el usuario seleccione
+ * \param void
+ * \return Retorna void
+ *
+ */
 void displayOptions()
 {
     printf("Ingrese opcion\n");
@@ -51,18 +72,18 @@ void displayOptions()
     printf("7 Listar Servicios\n");
     printf("8 Alta trabajo\n");
     printf("9 Listar Trabajos\n");
-    printf("10 1Informe: autos por color\n");
-    printf("11 2Informe: autos por marca\n");
-    printf("12 3Informes: mostrar mas viejo \n");
-    printf("13 4Informes: autos por marca\n");
-    printf("14 5Informes: autos por color y marca\n");
-    printf("15 6Informes: marca mas elegida\n");
-    printf("16 7Informes: \n");
-    printf("17 8Informes: \n");
-    printf("18 9Informes: \n");
-    printf("19 10Informes: \n");
-    printf("20 Alta clientes: \n");
-    printf("0 salir\n");
+    printf("10 Informe: Autos por color\n");
+    printf("11 Informe: Autos por marca\n");
+    printf("12 Informe: Auto mas viejo \n");
+    printf("13 Informe: Listar autos por marca\n");
+    printf("14 Informe: Cantidad de autos por color y marca\n");
+    printf("15 Informe: Marca mas elegida\n");
+    printf("16 Informe: Trabajos por auto\n");
+    printf("17 Informe: Importe de los servicios realizados\n");
+    printf("18 Informe: Servicio por auto y fecha\n");
+    printf("19 Informe: Servicios por fecha\n");
+    printf("20 Alta clientes\n");
+    printf("0 Salir\n");
 }
 
 /**
@@ -103,6 +124,30 @@ int showModificationMenu()
     return opcion;
 }
 
+/**
+ * \brief Permite harcodear trabajos
+  int* contadorAutosActivos, int* primerTrabajo, int* clienteDadoDeAlta)
+ * \param trabajos Array de trabajos
+ * \param lenTrabajos Cantidad de elementos del array
+ * \param clientes Array de clientes
+ * \param lenClientes Cantidad de elementos del array
+  * \param autos Array de autos
+ * \param lenAutos Cantidad de elementos del array
+  * \param marcas Array de marcas
+ * \param lenMarcas Cantidad de elementos del array
+ * \param colores Array de colores
+ * \param lenColores Cantidad de elementos del array
+ * \param servicios Array de servicios
+ * \param lenServicio Cantidad de elementos del array
+ * \param idCliente Es el id
+ * \param idTrabajo Es el id
+ * \param idAuto Es el id
+ * \param primerTrabajo Bandera primer trabajo
+ * \param contadorAutosActivos Es el contador de autos activos
+ * \param clienteDadoDeAlta Es el cliente que se dio de alta
+ * \return Retorna void
+ *
+ */
 void harcodearTrabajos(Trabajo* trabajos, int lenTrabajos, Cliente* clientes, int lenClientes, Auto* autos, int lenAutos, Marca* marcas, int lenMarcas, Color* colores, int lenColores, Servicio* servicios, int lenServicio, int* idCliente, int* idTrabajo, int* idAuto, int* contadorAutosActivos, int* primerTrabajo, int* clienteDadoDeAlta)
 {
     altaClientes(clientes, lenClientes, 0, 1, 'm', "jose");
@@ -143,6 +188,21 @@ void harcodearTrabajos(Trabajo* trabajos, int lenTrabajos, Cliente* clientes, in
 }
 
 
+/**
+ * \brief Permite modificar un auto
+ * \param autos Array de autos
+ * \param lenAutos Cantidad de elementos del array
+ * \param colores Array de colores
+ * \param lenColores Cantidad de elementos del array
+ * \param marcas Array de marcas
+ * \param lenMarcas Cantidad de elementos del array
+ * \param clientes Array de clientes
+ * \param lenClientes Cantidad de elementos del array
+ * \param clienteDadoDeAlta Es el cliente que se dio de alta
+ * \param contadorAutosActivos Es el contador de autos activos
+ * \return Retorna void
+ *
+ */
 void modificarAuto(Auto* autos, int lenAutos, Color* colores, int lenColores, Marca* marcas, int lenMarcas, Cliente* clientes, int lenClientes,  int clienteDadoDeAlta, int contadorAutosActivos)
 {
 
@@ -181,6 +241,21 @@ void modificarAuto(Auto* autos, int lenAutos, Color* colores, int lenColores, Ma
     }
 }
 
+/**
+ * \brief Permite dar de baja un auto
+ * \param autos Array de autos
+ * \param lenAutos Cantidad de elementos del array
+ * \param colores Array de colores
+ * \param lenColores Cantidad de elementos del array
+ * \param marcas Array de marcas
+ * \param lenMarcas Cantidad de elementos del array
+ * \param clientes Array de clientes
+ * \param lenClientes Cantidad de elementos del array
+ * \param clienteDadoDeAlta Es el cliente que se dio de alta
+ * \param contadorAutosActivos Es el contador de autos activos
+ * \return Retorna void
+ *
+ */
 void bajaAuto(Auto* autos, int lenAutos, Color* colores, int lenColores, Marca* marcas, int lenMarcas, Cliente* clientes, int lenClientes,  int clienteDadoDeAlta, int* contadorAutosActivos)
 {
     char patente[PATENTE_LEN];
@@ -208,6 +283,21 @@ void bajaAuto(Auto* autos, int lenAutos, Color* colores, int lenColores, Marca* 
 
 }
 
+/**
+ * \brief Permite mostrar los autos
+ * \param autos Array de autos
+ * \param lenAutos Cantidad de elementos del array
+ * \param colores Array de colores
+ * \param lenColores Cantidad de elementos del array
+ * \param marcas Array de marcas
+ * \param lenMarcas Cantidad de elementos del array
+ * \param clientes Array de clientes
+ * \param lenClientes Cantidad de elementos del array
+ * \param clienteDadoDeAlta Es el cliente que se dio de alta
+ * \param contadorAutosActivos Es el contador de autos activos
+ * \return Retorna void
+ *
+ */
 void mostrarAutosLista(Auto* autos, int lenAutos, Color* colores, int lenColores, Marca* marcas, int lenMarcas, Cliente* clientes, int lenClientes,  int clienteDadoDeAlta, int contadorAutosActivos)
 {
     if(contadorAutosActivos>0)
@@ -220,6 +310,23 @@ void mostrarAutosLista(Auto* autos, int lenAutos, Color* colores, int lenColores
     }
 }
 
+/**
+ * \brief Permite dar de alta un trabajo
+ Servicio* servicios, int lenServicios, int contadorAutosActivos, int* idTrabajo, int* primerTrabajo)
+ * \param autos Array de autos
+ * \param lenAutos Cantidad de elementos del array
+ * \param trabajos Array de trabajos
+ * \param lenTrabajos Cantidad de elementos del array
+ * \param servicios Array de servicios
+ * \param lenServicios Cantidad de elementos del array
+ * \param clientes Array de clientes
+ * \param lenClientes Cantidad de elementos del array
+ * \param contadorAutosActivos Es el contador de autos activos
+ * \param idTrabajo Es el id del trabajo
+ * \param primerTrabajo Banderadel primer trabajo
+ * \return Retorna void
+ *
+ */
 void altraTrabajoMenu(Auto* autos, int lenAutos, Trabajo* trabajos, int lenTrabajos, Servicio* servicios, int lenServicios, int contadorAutosActivos, int* idTrabajo, int* primerTrabajo)
 {
     char patente[PATENTE_LEN];
@@ -260,105 +367,181 @@ void altraTrabajoMenu(Auto* autos, int lenAutos, Trabajo* trabajos, int lenTraba
     }
 }
 
+
+/**
+ * \brief Permite dar de alta un cliente
+ * \param clientes Array de clientes
+ * \param lenClientes Cantidad de elementos del array
+ * \param idCliente Es el id del cliente
+ * \param clienteDadoDeAlta Cliente dado de alta
+ * \return Retorna void
+ *
+ */
 void altaClienteMenu(Cliente* clientes, int lenClientes, int* idCliente, int* clienteDadoDeAlta)
 {
     int indiceLibre;
     char sexo;
     char nombreCliente[NOMBRE_CLIENTE_LEN];
-                indiceLibre = buscarIndiceLibreCliente(clientes, lenClientes);
-            if(indiceLibre != -1)
-            {
-                pedirNombre(nombreCliente, NOMBRE_CLIENTE_LEN);
-                pedirSexo(&sexo);
-                altaClientes(clientes, lenClientes, indiceLibre, *idCliente, sexo, nombreCliente);
-                (*clienteDadoDeAlta) = 1;
-                idCliente++;
-            }
-            else
-            {
-                printf("No hay lugar disponible para mas clientes\n");
-            }
+    indiceLibre = buscarIndiceLibreCliente(clientes, lenClientes);
+    if(indiceLibre != -1)
+    {
+        pedirNombre(nombreCliente, NOMBRE_CLIENTE_LEN);
+        pedirSexo(&sexo);
+        altaClientes(clientes, lenClientes, indiceLibre, *idCliente, sexo, nombreCliente);
+        (*clienteDadoDeAlta) = 1;
+        idCliente++;
+    }
+    else
+    {
+        printf("No hay lugar disponible para mas clientes\n");
+    }
 
 }
 
-
+/**
+ * \brief Permite listar los trabajos segun fecha
+ * \param trabajos Array de trabajos
+ * \param lenTrabajos Cantidad de elementos del array
+  * \param servicios Array de servicios
+ * \param lenServicios Cantidad de elementos del array
+ * \param contadorAutosActivos Es el contador de autos activos
+ * \return Retorna void
+ *
+ */
 void listarTrabajosEnFecha(Trabajo* trabajos, int lenTrabajos, Servicio* servicios, int lenServicios, int contadorAutosActivos)
-            {
-                Fecha fecha;
-                if(contadorAutosActivos>0)
-            {
-                pedirFecha(&fecha);
-                mostrarTrabajosEnFecha(trabajos, MAX_TRABAJOS, fecha, servicios, LEN_SERVICIOS);
+{
+    Fecha fecha;
+    if(contadorAutosActivos>0)
+    {
+        pedirFecha(&fecha);
+        mostrarTrabajosEnFecha(trabajos, MAX_TRABAJOS, fecha, servicios, LEN_SERVICIOS);
 
-            }
-            else
-            {
-                printf("No hay autos activos\n\n");
-            }
-            }
-
-void listarAutoYFechaPorServicio(Trabajo* trabajos, int lenTrabajos, Servicio* servicios, int lenServicios, int contadorAutosActivos){
-            int idServicio;
-            if(contadorAutosActivos>0)
-            {
-                pedirServicio(servicios, lenServicios,&idServicio);
-                mostrarAutoYFechaDeServicio(trabajos, lenTrabajos, idServicio);
-            }
-            else
-            {
-                printf("No hay autos activos\n\n");
-            }
+    }
+    else
+    {
+        printf("No hay autos activos\n\n");
+    }
 }
 
-void mostrarImportePorAuto(Auto* autos, int lenAutos, Trabajo* trabajos, int lenTrabajos, Servicio* servicios, int lenServicios, int contadorAutosActivos){
-        char patente[PATENTE_LEN];
-        float importePorPatente;
-            if(contadorAutosActivos>0)
-            {
-                pedirPatente(autos, lenAutos, patente, PATENTE_LEN);
-                importePorPatente = importeServiciosPorAuto(trabajos, lenTrabajos, patente, servicios, lenServicios);
-
-                if(importePorPatente==0)
-                {
-                    printf("No hubo trabajos para ese auto\n\n");
-                }
-                else
-                {
-                    printf("El importe de los servicios realizados al auto seleccionado es $%.2f\n\n", importePorPatente);
-                }
-            }
-            else
-            {
-                printf("No hay autos activos\n\n");
-            }
-            }
-
-
-void mostrarTrabajosPorPatente(Auto* autos, int lenAutos, Trabajo* trabajos, int lenTrabajos, Servicio* servicios, int lenServicios, int contadorAutosActivos){
-       char patente[PATENTE_LEN];
-            if(contadorAutosActivos>0)
-            {
-                pedirPatente(autos, lenAutos, patente, PATENTE_LEN);
-                listarTrabajosPorPatente(trabajos, lenTrabajos, patente, servicios, lenServicios);
-            }
-            else
-            {
-                printf("No hay autos activos\n\n");
-            }
+/**
+ * \brief Permite listar autos por fecha y servicio
+  * \param trabajos Array de trabajos
+ * \param lenTrabajos Cantidad de elementos del array
+  * \param servicios Array de servicios
+ * \param lenServicios Cantidad de elementos del array
+ * \param contadorAutosActivos Es el contador de autos activos
+ * \return Retorna void
+ *
+ */
+void listarAutoYFechaPorServicio(Trabajo* trabajos, int lenTrabajos, Servicio* servicios, int lenServicios, int contadorAutosActivos)
+{
+    int idServicio;
+    if(contadorAutosActivos>0)
+    {
+        pedirServicio(servicios, lenServicios,&idServicio);
+        mostrarAutoYFechaDeServicio(trabajos, lenTrabajos, idServicio);
+    }
+    else
+    {
+        printf("No hay autos activos\n\n");
+    }
 }
 
-void listarMarcasMasElegida(Auto* autos, int lenAutos, Marca* marcas, int lenMarcas, int contadorAutosActivos){
+/**
+ * \brief Permite mortrar el importe
+  * \param trabajos Array de trabajos
+ * \param lenTrabajos Cantidad de elementos del array
+  * \param servicios Array de servicios
+ * \param lenServicios Cantidad de elementos del array
+ * \param contadorAutosActivos Es el contador de autos activos
+ * \return Retorna void
+ *
+ */
+void mostrarImportePorAuto(Auto* autos, int lenAutos, Trabajo* trabajos, int lenTrabajos, Servicio* servicios, int lenServicios, int contadorAutosActivos)
+{
+    char patente[PATENTE_LEN];
+    float importePorPatente;
+    if(contadorAutosActivos>0)
+    {
+        pedirPatente(autos, lenAutos, patente, PATENTE_LEN);
+        importePorPatente = importeServiciosPorAuto(trabajos, lenTrabajos, patente, servicios, lenServicios);
 
-            if(contadorAutosActivos>0)
-            {
-                mostrarMarcaMasElegida(autos, lenAutos, marcas, lenMarcas);
-            }
-            else
-            {
-                printf("No hay autos activos\n\n");
-            }
+        if(importePorPatente==0)
+        {
+            printf("No hubo trabajos para ese auto\n\n");
+        }
+        else
+        {
+            printf("El importe de los servicios realizados al auto seleccionado es $%.2f\n\n", importePorPatente);
+        }
+    }
+    else
+    {
+        printf("No hay autos activos\n\n");
+    }
 }
 
+/**
+ * \brief Permite mostrar los trabajos por patente
+ * \param autos Array de autos
+ * \param lenAutos Cantidad de elementos del array
+ * \param trabajos Array de trabajos
+ * \param lenTrabajos Cantidad de elementos del array
+  * \param servicios Array de servicios
+ * \param lenServicios Cantidad de elementos del array
+ * \param contadorAutosActivos Es el contador de autos activos
+ * \return Retorna void
+ *
+ */
+void mostrarTrabajosPorPatente(Auto* autos, int lenAutos, Trabajo* trabajos, int lenTrabajos, Servicio* servicios, int lenServicios, int contadorAutosActivos)
+{
+    char patente[PATENTE_LEN];
+    if(contadorAutosActivos>0)
+    {
+        pedirPatente(autos, lenAutos, patente, PATENTE_LEN);
+        listarTrabajosPorPatente(trabajos, lenTrabajos, patente, servicios, lenServicios);
+    }
+    else
+    {
+        printf("No hay autos activos\n\n");
+    }
+}
+
+/**
+ * \brief Permite listar la marca mas elegida
+ * \param autos Array de autos
+ * \param lenAutos Cantidad de elementos del array
+ * \param marcas Array de marcas
+ * \param lenMarcas Cantidad de elementos del array
+ * \param contadorAutosActivos Es el contador de autos activos
+ * \return Retorna void
+ *
+ */
+void listarMarcasMasElegida(Auto* autos, int lenAutos, Marca* marcas, int lenMarcas, int contadorAutosActivos)
+{
+
+    if(contadorAutosActivos>0)
+    {
+        mostrarMarcaMasElegida(autos, lenAutos, marcas, lenMarcas);
+    }
+    else
+    {
+        printf("No hay autos activos\n\n");
+    }
+}
+
+/**
+ * \brief Permite listar por color y marca
+ * \param autos Array de autos
+ * \param lenAutos Cantidad de elementos del array
+ * \param colores Array de colores
+ * \param lenColores Cantidad de elementos del array
+ * \param marcas Array de marcas
+ * \param lenMarcas Cantidad de elementos del array
+ * \param contadorAutosActivos Es el contador de autos activos
+ * \return Retorna void
+ *
+ */
 void listAutosPorColorYMarca(Auto* autos, int lenAutos, Color* colores, int lenColores, Marca* marcas, int lenMarcas, int contadorAutosActivos)
 {
     int idColor;
@@ -367,25 +550,25 @@ void listAutosPorColorYMarca(Auto* autos, int lenAutos, Color* colores, int lenC
     int indiceColor;
     int indiceMarca;
 
-            if(contadorAutosActivos>0)
-            {
+    if(contadorAutosActivos>0)
+    {
 
-                pedirColor(colores,lenColores, &idColor);
-                pedirIdMarca(marcas, lenMarcas, &idMarca);
-                contadorColorYMarca = contarColorYMarca(autos, lenAutos, idColor, idMarca, colores, lenColores, marcas, lenMarcas);
-                if(contadorColorYMarca==0)
-                {
-                    printf("No hay autos de ese color/marca\n\n");
-                }
-                else
-                {
-                    indiceColor = buscarIndicePorIdDeColor(colores, lenColores, idColor);
-                    indiceMarca = buscarIndiceDeMarcaPorId(marcas, lenMarcas, idMarca);
-                    printf("Hay %d auto de color %s y la marca %s\n\n", contadorColorYMarca, colores[indiceColor].nombreColor, marcas[indiceMarca].descripcion);
-                }
-            }
-            else
-            {
-                printf("No hay autos activos\n\n");
-            }
-            }
+        pedirColor(colores,lenColores, &idColor);
+        pedirIdMarca(marcas, lenMarcas, &idMarca);
+        contadorColorYMarca = contarColorYMarca(autos, lenAutos, idColor, idMarca, colores, lenColores, marcas, lenMarcas);
+        if(contadorColorYMarca==0)
+        {
+            printf("No hay autos de ese color/marca\n\n");
+        }
+        else
+        {
+            indiceColor = buscarIndicePorIdDeColor(colores, lenColores, idColor);
+            indiceMarca = buscarIndiceDeMarcaPorId(marcas, lenMarcas, idMarca);
+            printf("Hay %d auto de color %s y la marca %s\n\n", contadorColorYMarca, colores[indiceColor].nombreColor, marcas[indiceMarca].descripcion);
+        }
+    }
+    else
+    {
+        printf("No hay autos activos\n\n");
+    }
+}

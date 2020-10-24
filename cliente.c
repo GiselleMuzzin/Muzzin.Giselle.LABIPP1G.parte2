@@ -25,6 +25,8 @@ int inicializarClientes(Cliente* clientes, int len) // Pone todas como isEmpty
     }
     return retorno;
 }
+
+
 /**
  * \brief Busca el indice que corresponde a un indice disponible
  * \param clientes Array de clientes
@@ -48,6 +50,7 @@ int buscarIndiceLibreCliente (Cliente* clientes, int len)
     }
     return retorno; // devuelvo -1 p error, el i si encontre libre
 }
+
 
 /**
  * \brief Busca el indice que corresponde al id seleccionado por el usuario
@@ -77,6 +80,7 @@ int buscarIndicePorIdCliente (Cliente* clientes, int len, int idSeleccionado)
     return retorno;
 }
 
+
 /**
  * \brief Valida que el array no sea NULL y que el tamaño sea mayor a 0
  * \param objetos Array de objetos
@@ -97,6 +101,7 @@ int checkClientesYLen (Cliente* clientes, int len)
     }
     return retorno;
 }
+
 
 /**
  * \brief Permite dar de alta un cliente
@@ -126,6 +131,7 @@ int altaClientes (Cliente* clientes, int len, int indiceLibre, int idCliente, ch
     return retorno; // 0 ok, -1 error
 }
 
+
 /**
  * \brief Pide al usuario que ingrese el id del clientes
  * \param clientes Array de clientes
@@ -146,6 +152,7 @@ void pedirIdCliente (Cliente* clientes, int len, int* idSeleccionado)
         scanf("%d", idSeleccionado);
     }
 }
+
 
 /**
  * \brief Valida el id del cliente
@@ -222,6 +229,7 @@ void pedirSexo(char* sexo)
     }
 }
 
+
 /**
  * \brief Pide al usuario que ingrese el nombre del cliente
  * \param clientes Array de clientes
@@ -229,15 +237,17 @@ void pedirSexo(char* sexo)
  * \param nombre
  * \return (void)
  */
-
- void pedirNombre(char* nombre, int nombreLen)
- {
+void pedirNombre(char* nombre, int nombreLen)
+{
     utn_getNombre(nombre, nombreLen, "Ingrese nombre de cliente\n", "Nombre incorrecto\n");
- }
+}
 
 
-// DOXYGENNNNN
-
+/**
+ * \brief Permite mostrar un cliente
+ * \param unCliente Un cliente
+ * \return (void)
+ */
 void mostrarCliente(Cliente unCliente)
 {
     printf("Cliente %d nombre: %s, Sexo: %c\n", unCliente.id, unCliente.nombre, unCliente.sexo);

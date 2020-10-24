@@ -28,6 +28,7 @@ int buscarTrabajoLibre(Trabajo* trabajos, int len)
     return retorno; // devuelvo -1 p error, el i si encontre libre
 }
 
+
 /**
  * \brief Inicializa el array de trabajos indicando que todas las posiciones del mismo estan vacias (isEmpty=1)
  * \param trabajos Array de trabajos
@@ -49,6 +50,7 @@ int inicializarTrabajos(Trabajo* trabajos, int len)
     return retorno;
 }
 
+
 /**
  * \brief Valida que el array no sea NULL y que el tamaño sea mayor a 0
  * \param trabajos Array de trabajos
@@ -69,6 +71,7 @@ int checkTrabajosYLen (Trabajo* trabajos, int len)
     }
     return retorno;
 }
+
 
 /**
  * \brief Permite dar de alta un trabajo
@@ -101,7 +104,6 @@ int altaTrabajo(Trabajo* trabajos, int len, int indiceTrabajoLibre, char* patent
 }
 
 
-
 /**
  * \brief Permite listar los trabajos
  * \param trabajos Array de trabajos
@@ -123,6 +125,15 @@ void listarTrabajos(Trabajo* trabajos, int len, Servicio* servicios, int lenServ
     printf("\n");
 }
 
+
+/**
+ * \brief Permite mostrar un trabajo
+ * \param trabajo Trabajo
+ * \param servicios Array de servicios
+ * \param lenServicios Cantidad de elementos del array
+ * \return void
+ *
+ */
 void mostrarTrabajo(Trabajo trabajo,  Servicio* servicios, int lenServicios)
 {
     int indiceServicios;
@@ -130,6 +141,17 @@ void mostrarTrabajo(Trabajo trabajo,  Servicio* servicios, int lenServicios)
     printf("%-10d %-10s %-10s %d/%d/%d\n", trabajo.id, trabajo.patente, servicios[indiceServicios].descripcion, trabajo.fechaDeServicio.dia, trabajo.fechaDeServicio.mes, trabajo.fechaDeServicio.anio);
 }
 
+
+/**
+ * \brief Permite listar los trabajos de un auto
+ * \param trabajos Array de trabajos
+ * \param len Cantidad de elementos del array
+ * \param patente Es la patente del auto
+ * \param servicios Array de servicios
+ * \param lenServicios Cantidad de elementos del array
+ * \return Retorna -1 (ERROR) y 0 (OK)
+ *
+ */
 int listarTrabajosPorPatente(Trabajo* trabajos, int len, char* patente, Servicio* servicios, int lenServicios)
 {
     int retorno = -1;
@@ -160,6 +182,17 @@ int listarTrabajosPorPatente(Trabajo* trabajos, int len, char* patente, Servicio
     return retorno;
 }
 
+
+/**
+ * \brief Permite obtener el importe de los servicios realizados
+ * \param trabajos Array de trabajos
+ * \param len Cantidad de elementos del array
+ * \param patente Es la patente del auto
+ * \param servicios Array de servicios
+ * \param lenServicios Cantidad de elementos del array
+ * \return Retorna el importe de los servicios
+ *
+ */
 float importeServiciosPorAuto(Trabajo* trabajos, int len, char* patente, Servicio* servicios, int lenServicios)
 {
     float acumuladorImporte = 0;
@@ -181,6 +214,15 @@ float importeServiciosPorAuto(Trabajo* trabajos, int len, char* patente, Servici
 
 }
 
+
+/**
+ * \brief Permite mostrar un servicio y el auto y la fecha que corresponden al mismo
+ * \param trabajos Array de trabajos
+ * \param len Cantidad de elementos del array
+ * \param idServicioSeleccionado Es el id del servicio que se quiere mostrar
+ * \return void
+ *
+ */
 void mostrarAutoYFechaDeServicio(Trabajo* trabajos, int len, int idServicioSeleccionado)
 {
     int flagServicio = 0;
@@ -204,6 +246,17 @@ void mostrarAutoYFechaDeServicio(Trabajo* trabajos, int len, int idServicioSelec
     }
 }
 
+
+/**
+ * \brief Permite mostrar los trabajos realizados en una fecha seleccionada por el usuario
+ * \param trabajos Array de trabajos
+ * \param len Cantidad de elementos del array
+ * \param fecha Es la fecha que ingresa el usuario
+ * \param servicios Array de trabajos
+ * \param lenServicios Cantidad de elementos del array
+ * \return void
+ *
+ */
 void mostrarTrabajosEnFecha(Trabajo* trabajos, int len, Fecha fecha, Servicio* servicios, int lenServicios)
 {
     int flagFecha = 0;

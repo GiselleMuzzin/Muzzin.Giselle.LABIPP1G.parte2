@@ -30,6 +30,7 @@ void inicializarMarcasHarcodeadas(Marca* marcas, int len)
     marcas[4].isEmpty=0;
 }
 
+
 /**
  * \brief Pide al usuario que ingrese la marca deseada
  * \param marcas Array de marcas
@@ -73,6 +74,7 @@ int esIdDeMarcaValido(Marca* marcas, int len, int idMarca)
     return idValido;
 }
 
+
 /**
  * \brief Busca el indice que corresponde al id seleccionado por el usuario
  * \param marcas Array de marcas
@@ -101,6 +103,7 @@ int buscarIndiceDeMarcaPorId (Marca* marcas, int len, int idMarca)
     return retorno;
 }
 
+
 /**
  * \brief Valida que el array no sea NULL y que el tamaño sea mayor a 0
  * \param marcas Array de marcas
@@ -121,6 +124,7 @@ int checkMarcasYLen (Marca* marcas, int len)
     }
     return retorno;
 }
+
 
 /**
  * \brief Muestra las marcas disponibles

@@ -89,11 +89,11 @@ int buscarIndiceDeServicioPorId (Servicio* servicios, int len, int idServicio)
     {
         for(int i = 0; i<len; i++)
         {
-                if(servicios[i].id == idServicio)
-                {
-                    retorno = i;
-                    break;
-                }
+            if(servicios[i].id == idServicio)
+            {
+                retorno = i;
+                break;
+            }
 
         }
     }
@@ -121,7 +121,7 @@ int mostrarServicio(Servicio* servicios, int len)
         {
             if(servicios[i].isEmpty==0)
             {
-        printf("%d      %s      $%.2f\n", servicios[i].id, servicios[i].descripcion, servicios[i].precio);
+                printf("%d      %s      $%.2f\n", servicios[i].id, servicios[i].descripcion, servicios[i].precio);
             }
         }
         printf("\n");

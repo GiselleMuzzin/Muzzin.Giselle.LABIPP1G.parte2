@@ -385,7 +385,7 @@
 1603497785 source:/home/gise/Documents/utn codeblocks/Muzzin_Giselle_LABIPP1G/menu.c
 	"menu.h"
 
-1603497284 source:/home/gise/Documents/utn codeblocks/Muzzin.Giselle.LABIPP1G.parte2/auto.c
+1603499070 source:/home/gise/Documents/utn codeblocks/Muzzin.Giselle.LABIPP1G.parte2/auto.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -408,7 +408,7 @@
 
 1603454713 /home/gise/Documents/utn codeblocks/Muzzin.Giselle.LABIPP1G.parte2/cliente.h
 
-1603455341 source:/home/gise/Documents/utn codeblocks/Muzzin.Giselle.LABIPP1G.parte2/cliente.c
+1603499204 source:/home/gise/Documents/utn codeblocks/Muzzin.Giselle.LABIPP1G.parte2/cliente.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -423,7 +423,7 @@
 	<stdio_ext.h>
 	"color.h"
 
-1603423984 source:/home/gise/Documents/utn codeblocks/Muzzin.Giselle.LABIPP1G.parte2/fecha.c
+1603499312 source:/home/gise/Documents/utn codeblocks/Muzzin.Giselle.LABIPP1G.parte2/fecha.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -462,28 +462,28 @@
 	"fecha.h"
 	"servicio.h"
 
-1603496469 source:/home/gise/Documents/utn codeblocks/Muzzin.Giselle.LABIPP1G.parte2/marca.c
+1603499341 source:/home/gise/Documents/utn codeblocks/Muzzin.Giselle.LABIPP1G.parte2/marca.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"marca.h"
 
-1603497785 source:/home/gise/Documents/utn codeblocks/Muzzin.Giselle.LABIPP1G.parte2/menu.c
+1603501446 source:/home/gise/Documents/utn codeblocks/Muzzin.Giselle.LABIPP1G.parte2/menu.c
 	"menu.h"
 
-1603496540 source:/home/gise/Documents/utn codeblocks/Muzzin.Giselle.LABIPP1G.parte2/servicio.c
+1603500082 source:/home/gise/Documents/utn codeblocks/Muzzin.Giselle.LABIPP1G.parte2/servicio.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"servicio.h"
 
-1603496091 source:/home/gise/Documents/utn codeblocks/Muzzin.Giselle.LABIPP1G.parte2/trabajo.c
+1603500057 source:/home/gise/Documents/utn codeblocks/Muzzin.Giselle.LABIPP1G.parte2/trabajo.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"trabajo.h"
 
-1602894233 source:/home/gise/Documents/utn codeblocks/Muzzin.Giselle.LABIPP1G.parte2/utn.c
+1603499386 source:/home/gise/Documents/utn codeblocks/Muzzin.Giselle.LABIPP1G.parte2/utn.c
 	<stdio.h>
 	<stdio_ext.h>
 	<stdlib.h>
